@@ -16,7 +16,7 @@ This folder splits the original single training script into several files and al
 Place these files in the same folder and install PyTorch, PyTorch Geometric, NumPy, Pandas, and scikit-learn. Then run:
 
 ```bash
-python main.py --city Shanghai --runs 10 --region_map_csv dataset/Shanghai/region_map.csv
+python main.py --city Shanghai
 ```
 
 If your ROI CSV already contains a genuine `region_id` column, omit `--region_map_csv`.
